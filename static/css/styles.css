@@ -1,0 +1,42 @@
+header {
+    display: flex;
+    justify-content: space-between; /* Distribute space between items */
+    align-items: center; /* Center items vertically */
+    padding: 10px 20px;
+    border-bottom: 1px solid #ccc; /* Bottom border */
+}
+
+nav {
+    display: flex; /* Flex for horizontal layout */
+}
+nav a {
+    margin-left: 20px; /* Space between links */
+    text-decoration: none; /* Remove underline */
+}
+
+.links {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.links li {
+    margin: 0;
+}
+
+a {
+    color: white; /* White link color */
+    text-decoration: underline; /* Underline links */
+    text-underline-color: white; /* Set underline color to match text color */
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+}
+
+h3 {
+    color: lightblue;
+}
